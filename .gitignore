@@ -1,0 +1,23 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Local configuration and credentials
+.env
+.env.*
+!.env.example
+
+# Selenium browser session data
+chrome_profile/
+os.path.join(os.getcwd(), "chrome_profile")/
+
+# Editor and operating-system files
+.vscode/
+.idea/
+.DS_Store
